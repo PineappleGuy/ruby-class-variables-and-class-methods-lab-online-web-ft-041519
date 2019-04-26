@@ -30,8 +30,9 @@ class Song
   def self.genre_count
     hash = {}
     @@genres.each do |genre|
-if hash.include?(genre)
+if hash.include?(genre) != true
         hash.push(genre: += 1)
+      end
     end
     return hash
   end
