@@ -22,11 +22,11 @@ class Song
   end
 
   def self.artists
-  return @@artist_hash.keys
+  array
   end
 
   def self.genres
-    return @@genre_hash.keys
+    @@genre_hash.keys
   end
 
   def self.genre_count
