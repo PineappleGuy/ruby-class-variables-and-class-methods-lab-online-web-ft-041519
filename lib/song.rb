@@ -22,8 +22,7 @@ class Song
   end
 
   def self.artists
-    array = []
-    array << @@artist_hash.keys
+    array.new = @@artist_hash.keys
   end
 
   def self.genres
