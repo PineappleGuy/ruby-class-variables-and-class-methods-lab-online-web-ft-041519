@@ -9,17 +9,9 @@ class Song
     @artist = artist
     @genre = genre
     @@count += 1
-    @@artist.each do |x|
-      if x != artist
-        @@artist << artist
-      end
+    if @@artist.include?(artist) == false
+      @@artist << artist
     end
-    @@genres.each do |x|
-      if x != artist
-        @@genres << genre
-      end
-    end
-
   end
 
   def self.count
