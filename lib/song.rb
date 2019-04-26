@@ -31,7 +31,7 @@ class Song
     hash = {}
     @@genres.each do |genre|
 if hash.include?(genre) != true
-        hash.push(genre: => 1)
+        hash << genre: => 1
       else
         hash[genre] += 1
       end
