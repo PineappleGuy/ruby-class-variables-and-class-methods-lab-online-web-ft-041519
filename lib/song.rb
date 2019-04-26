@@ -22,7 +22,7 @@ class Song
   end
 
   def self.artists
-  array
+  
   end
 
   def self.genres
