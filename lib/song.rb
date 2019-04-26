@@ -50,6 +50,4 @@ class Song
     end
     return hash
   end
-  end
-
 end
