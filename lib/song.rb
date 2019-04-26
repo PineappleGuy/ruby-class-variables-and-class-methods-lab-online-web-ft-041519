@@ -27,7 +27,7 @@ class Song
   end
 
   def self.genres
-    @@genre_hash.keys
+    @@genre_hash
   end
 
   def self.genre_count
