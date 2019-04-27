@@ -27,10 +27,10 @@ class Song
   def self.artists
     array = []
     @@artists.each do |artist|
-      if @@artists.include?(artist) != true
+      if array.include?(artist) != true
         array << artist
       end
-      binding.pry
+      
     end
     return array
   end
