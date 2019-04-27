@@ -29,6 +29,7 @@ class Song
     @@artists.each do |artist|
       if @@artists.include?(artist) != true
         array << artist
+        binding.pry
       end
     end
     return array
