@@ -6,7 +6,7 @@ class Song
   @@genres = []
   @@genre_hash = {}
   @@artist_hash ={}
-  
+
 
   def initialize(name, artist, genre)
     @name = name
@@ -33,7 +33,7 @@ class Song
   end
 
   def self.genres
-    
+
   end
 
   def self.genre_count
